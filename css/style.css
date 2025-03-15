@@ -1,9 +1,42 @@
-body {
-    background-color: white;
+body{
+    background-color:aqua
 }
 h1{
     text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
 }
-div{
+h2{
+    margin: 0 0 5px;
+    font-size: 28px;
+}
+.container{
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.4);
+    margin:60px 0;
+}
+    .city{
+        display: flex;
+        margin: 10px 0;
+        justify-content: space-between;
+        padding: 30px 0;
+        border-bottom: 1px dashed rgba(0,0,0,0.2);
+    }
+    time{
+        font-size: 36px;
+        font-weight: bold;
+    }
+select {
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 10px;
+}
+footer{
     text-align: center;
+    font-size: 18px;
+    color:blueviolet
 }
